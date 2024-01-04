@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagenes/pexels-elias-tigiser-2757549.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-register {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 50px 5px #000 ;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+
+.controls {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: solid 1px #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Ponemos la fuente nuevamente para aplicarla a las letras de dentro de los input */
+    font-size: medium;
+}
+
+.form-register p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.form-register a {
+    /* text-decoration: none; Le quita el subrayado a los links */
+    color: #fff;
+}
+
+.form-register .button {
+    width: 100%;
+    margin: 35px 0px 10px 0px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.293);
+    padding: 10px;
+    border: solid #ffffff 1px;
+    border-radius: 4px;
+    font-size: 15px;
+}
